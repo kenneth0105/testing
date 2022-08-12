@@ -4,29 +4,29 @@ export default function Submanu():JSX.Element
 {
     const submenu=[
         
-        {key: "menu",label:'Menu'},
-        {key: "about-us",label:'About us'},
-        {key: "service",label:'Service'},
-        {key: "clients",label:'Clients'},
-        {key: "inverters",label:'Inverster'},
-        {key: "pricing",label:'Pricing'},
-        {key: "training",label:'Training'},
-        {key: "contact",label:'Contact'},
+        {title: "title1",content:'Menu'},
+        {title: "title2",content:'About us'},
+        {title: "title3",content:'Service'},
+        {title: "title4",content:'Clients'},
+        {title: "title5",content:'Inverster'},
+        {title: "title6",content:'Pricing'},
+        {title: "title7",content:'Training'},
+        {title: "title8",content:'Contact'},
         
     ]
 
     return(
         <div className={styles.submenu}>
-            <ul>
+            <ul >
 
 
                 {submenu.map(item =>{
                     return(
                         
                         
-                        <div key={item.key}>
+                        <div key={item.title} >
                             
-                            <li><a>{item.label}</a></li>
+                            <li ><a href='#'>{item.content}</a></li>
                             
                         
                         </div>

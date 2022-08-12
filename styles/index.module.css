@@ -1,0 +1,12 @@
+.background
+{
+    background-image: url(../styles/img/—Pngtree—modern\ double\ colors\ neon\ lights_1170045.png);
+    background-size: auto;
+    background-position: 60% -4%;
+    height: 2000px;
+}
+
+.background ul li
+{
+    list-style-type: none;
+}
